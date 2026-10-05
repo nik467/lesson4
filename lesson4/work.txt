@@ -1,0 +1,53 @@
+# class Cat:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+#     def __str__(self):
+#         return  f"cotik{self.name}, bodee:{self.age}"
+#
+#
+# cat=Cat("bac",3)
+# dog=Cat("denic", 5)
+# print(cat,dog)
+# def my_shiny_new_decorator(function_to_decorate):
+#     def the_wapper_araund_the_original_function():
+#         print("i-cod before")
+#         function_to_decorate()
+#         print("a i cod, after")
+#     return the_wapper_araund_the_original_function
+# def stand_alone_function():
+#     print("iuahgyxh")
+# stand_alone_function_decorted = my_shiny_new_decorator(stand_alone_function)
+# # stand_alone_function_decorted()
+# def bread(func):
+#     def wapper():
+#         print()
+#         func()
+#         print("_________")
+#     return wapper
+# def f(func):
+#     def wapper():
+#         print("TOMATO")
+#         func()
+#         print("calat")
+#     return wapper
+# @f
+# @bread
+# def sad(food="--meat--"):
+#     print(food)
+# sad = bread(f(sad))
+# sad()
+print(10 != 10) f
+
+class Student:
+    def __init__(self,name,age,major):
+        self.name = name
+        self.age = age
+        self.major = major
+    def introduce(self):
+        print(f"privet ya {self.name},"
+        f"mne {self.age} ya uchus' na {self.major}")
+
+student1 = Student("aleksey", 20, "IU10")
+student1.introduce()
+
